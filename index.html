@@ -1,50 +1,33 @@
 <!DOCTYPE html>
 <html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Homepage</title>
+  </head>
 
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
-   <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
-   <title>Document</title>
-</head>
-
-<body>
-   <main>
+  <body>
 
       <header class="header-main">
-         <h1>Krzysztof Bartkiewicz - Strona Domowa</h1>
+         <a href="#" class="header-main__logo">Krzysztof Bartkiewicz</a>
+         <nav class="navigation">
+            <ul class="navigation__list">
+               <li class="navigation__item"><a href="#" class="navigation__link">Home</a></li>
+               <li class="navigation__item"><a href="#" class="navigation__link">About</a></li>
+               <li class="navigation__item"><a href="#" class="navigation__link">Notes</a></li>
+               <li class="navigation__item"><a href="#" class="navigation__link navigation__link--wtf-icon"></a></li>
+            </ul>
+         </nav>
       </header>
 
-      <section>
-         <h2>Kim jestem?</h2>
-         <p>
-            Ucze się frontendu
-         </p>
+      <section class="section-hero">
+         <h1 class="section-hero__heading">.homepag<span>e</span></h1>
       </section>
 
-      <section>
-         <h2>Notatki z WTF: Co ten frontend</h2>
-         <article>
-            <h3>Tydzień pierwszy</h3>
-            <p>
-               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit minus nulla culpa voluptatibus expedita facilis perspiciatis numquam! Dignissimos quisquam non, amet eaque officiis officia! Vitae aliquid voluptas quod saepe excepturi!
-            </p>
-         </article>
-
-         <article>
-            <h3>Tydzień drugi</h3>
-            <p>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sed a, tenetur ipsa dignissimos cum molestiae ullam officiis amet voluptatem nihil temporibus hic, voluptatum repudiandae placeat ex? Accusantium, quas est.
-            </p>
-         </article>
-      </section>
-
-      <footer>
-         Strona domowa KB - WTF: Co ten frontend
-      </footer>
-
-   </main>
-</body>
-
+      <div class="caption">
+         <p class="caption__text"></p>
+      </div>
+      
+  </body>
 </html>
