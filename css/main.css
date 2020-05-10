@@ -19,12 +19,42 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 
+@media only screen and (min-device-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  html {
+    font-size: 90%;
+  }
+}
+
 .header-main {
   font-size: 1.7rem;
   position: absolute;
   background-color: transparent;
   padding: 2.4rem 2.6rem;
   width: 100%;
+}
+
+@media only screen and (min-width: 1224px) {
+  .header-main {
+    padding: 3rem 10rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 .header-main__logo {
@@ -39,6 +69,13 @@ html {
   min-width: 80%;
 }
 
+@media only screen and (min-width: 1224px) {
+  .navigation {
+    margin-top: 0;
+    min-width: 30%;
+  }
+}
+
 .navigation__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -47,12 +84,19 @@ html {
       -ms-flex-pack: justify;
           justify-content: space-between;
   list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigation__item:hover:not(:last-child) a {
+  border-bottom: 3px solid var(--color-primary);
 }
 
 .navigation__link {
   text-transform: lowercase;
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--color-primary);
 }
 
 .section-hero {
@@ -79,31 +123,47 @@ html {
 .section-hero__inner {
   background-color: rgba(87, 87, 87, 0.5);
   position: relative;
-  padding: 1rem 1.5rem;
+  padding: 1rem 3rem 2rem 1.5rem;
+  font-size: 4rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .section-hero__inner {
+    font-size: 6rem;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  .section-hero__inner {
+    font-size: 8rem;
+    margin-left: 10rem;
+    margin-top: 15rem;
+  }
+}
+
+.section-hero__inner::before, .section-hero__inner::after {
+  content: "";
+  position: absolute;
 }
 
 .section-hero__inner::before {
-  content: "";
-  width: 38rem;
+  width: 7.5em;
   height: 3px;
   background-color: #FFF;
-  position: absolute;
   left: 0;
   top: 100%;
 }
 
 .section-hero__inner::after {
-  content: "";
   width: 3px;
-  height: 13.2rem;
+  height: 2.5em;
   background-color: #000;
-  position: absolute;
   right: 0;
   top: 0;
 }
 
 .section-hero__heading {
-  font-size: 5.4rem;
+  font-size: inherit;
   font-weight: 700;
   color: #FFF;
 }

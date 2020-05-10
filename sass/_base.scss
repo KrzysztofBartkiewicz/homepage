@@ -14,4 +14,16 @@ html {
     box-sizing: border-box;
     font-size: 62.5%; // 1rem = 10px
     font-family: 'Montserrat', sans-serif;
+
+    @media only screen and (min-device-width : 768px) {
+       font-size: 80%;
+    }
+
+    @media only screen  and (min-width : 1224px) {
+       font-size: 85%;
+    }
+
+    @media only screen  and (min-width : 1400px) {
+      font-size: 90%;
+   }
 }

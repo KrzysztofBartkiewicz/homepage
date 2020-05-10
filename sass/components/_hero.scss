@@ -12,31 +12,44 @@
    &__inner {
       background-color: rgba(87, 87, 87, .5);
       position: relative;
-      padding: 1rem 1.5rem;
+      padding: 1rem 3rem 2rem 1.5rem;
+      font-size: 4rem;
+
+      @media only screen and (min-width : 768px) {
+         font-size: 6rem;
+      }
+
+      @media only screen  and (min-width : 1224px) {
+         font-size: 8rem;
+         margin-left: 10rem;
+         margin-top: 15rem;
+      }
+
+      &::before,
+      &::after {
+         content: "";
+         position: absolute;
+      }
 
       &::before {
-         content: "";
-         width: 38rem;
+         width: 7.5em;
          height: 3px;
          background-color: #FFF;
-         position: absolute;
          left: 0;
          top: 100%;
       }
 
       &::after {
-         content: "";
          width: 3px;
-         height: 13.2rem;
+         height: 2.5em;
          background-color: #000;
-         position: absolute;
          right: 0;
          top: 0;
       }
    }
 
    &__heading {
-      font-size: 5.4rem;
+      font-size: inherit;
       font-weight: 700;
       color: #FFF;
    }
