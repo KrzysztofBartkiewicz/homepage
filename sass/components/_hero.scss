@@ -1,0 +1,43 @@
+.section-hero {
+   background-image: url('../assets/hero.jpg') ;
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   padding: 0 2.6rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+
+   &__inner {
+      background-color: rgba(87, 87, 87, .5);
+      position: relative;
+      padding: 1rem 1.5rem;
+
+      &::before {
+         content: "";
+         width: 38rem;
+         height: 3px;
+         background-color: #FFF;
+         position: absolute;
+         left: 0;
+         top: 100%;
+      }
+
+      &::after {
+         content: "";
+         width: 3px;
+         height: 13.2rem;
+         background-color: #000;
+         position: absolute;
+         right: 0;
+         top: 0;
+      }
+   }
+
+   &__heading {
+      font-size: 5.4rem;
+      font-weight: 700;
+      color: #FFF;
+   }
+}

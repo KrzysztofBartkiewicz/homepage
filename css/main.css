@@ -54,4 +54,57 @@ html {
   text-decoration: none;
   color: var(--primary-color);
 }
+
+.section-hero {
+  background-image: url("../assets/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  padding: 0 2.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.section-hero__inner {
+  background-color: rgba(87, 87, 87, 0.5);
+  position: relative;
+  padding: 1rem 1.5rem;
+}
+
+.section-hero__inner::before {
+  content: "";
+  width: 38rem;
+  height: 3px;
+  background-color: #FFF;
+  position: absolute;
+  left: 0;
+  top: 100%;
+}
+
+.section-hero__inner::after {
+  content: "";
+  width: 3px;
+  height: 13.2rem;
+  background-color: #000;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.section-hero__heading {
+  font-size: 5.4rem;
+  font-weight: 700;
+  color: #FFF;
+}
 /*# sourceMappingURL=main.css.map */
