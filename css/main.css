@@ -100,6 +100,10 @@ html {
   color: var(--color-primary);
 }
 
+.navigation__image {
+  pointer-events: none;
+}
+
 .section-hero {
   background-image: url("../assets/hero.jpg");
   background-position: center;
