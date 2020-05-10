@@ -1,0 +1,15 @@
+.header-main {
+   font-size: 1.7rem;
+   position: absolute;
+   background-color: transparent;
+   display: flex;
+   flex-direction: row;
+   padding: 2.4rem 2.6rem;
+
+   &__logo {
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--color-primary);
+      text-decoration: none;
+   }
+}
