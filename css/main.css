@@ -23,14 +23,8 @@ html {
   font-size: 1.7rem;
   position: absolute;
   background-color: transparent;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   padding: 2.4rem 2.6rem;
+  width: 100%;
 }
 
 .header-main__logo {
@@ -38,5 +32,26 @@ html {
   text-transform: uppercase;
   color: var(--color-primary);
   text-decoration: none;
+}
+
+.navigation {
+  margin-top: 3.2rem;
+  min-width: 80%;
+}
+
+.navigation__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+.navigation__link {
+  text-transform: lowercase;
+  text-decoration: none;
+  color: var(--primary-color);
 }
 /*# sourceMappingURL=main.css.map */
