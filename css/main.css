@@ -197,7 +197,7 @@ html {
     display: -ms-flexbox;
     display: flex;
     padding: 5rem 3rem;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
   }
 }
@@ -254,8 +254,7 @@ html {
 
 .personal-card__socials {
   margin-top: 2rem;
-  font-size: 1.5rem;
-  font-weight: 700;
+  padding-right: 12rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -268,6 +267,8 @@ html {
 .personal-card__social-text {
   padding-top: .6rem;
   margin-right: rem;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .personal-card__icon {
