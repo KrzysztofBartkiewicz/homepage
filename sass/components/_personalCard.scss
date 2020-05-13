@@ -30,15 +30,14 @@
 
    &__socials {
       margin-top: 2rem;
-      padding-right: 12rem;
       display: flex;
       justify-items: center;
-      justify-content: space-between;
+      justify-content: flex-start;
    }
 
    &__social-text {
       padding-top: .6rem;
-      margin-right: rem;
+      margin-right: 2rem;
       font-size: 1.5rem;
       font-weight: 700;
    }
@@ -46,5 +45,6 @@
    &__icon {
       width: 3rem;
       height: 3rem;
+      margin-right: 2rem;
    }
 }

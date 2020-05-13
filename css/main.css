@@ -254,19 +254,18 @@ html {
 
 .personal-card__socials {
   margin-top: 2rem;
-  padding-right: 12rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   justify-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .personal-card__social-text {
   padding-top: .6rem;
-  margin-right: rem;
+  margin-right: 2rem;
   font-size: 1.5rem;
   font-weight: 700;
 }
@@ -274,6 +273,7 @@ html {
 .personal-card__icon {
   width: 3rem;
   height: 3rem;
+  margin-right: 2rem;
 }
 
 .main {
