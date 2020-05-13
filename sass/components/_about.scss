@@ -2,10 +2,23 @@
    width: 100%;
    color: var(--color-primary);
 
+   @media only screen  and (min-width : 1224px) {
+      display: flex;
+      padding: 5rem 3rem;
+      width: 70%;
+      margin: 0 auto;
+   }
+
    &__heading {
       font-size: 8rem;
       font-weight: 700;
       text-align: center;
       border-bottom: 3px solid var(--color-primary);
+
+      @media only screen  and (min-width : 1224px) {
+         border-bottom: none;
+         border-right: 3px solid var(--color-primary);
+         padding-right: 2rem;
+      }
    }
 }

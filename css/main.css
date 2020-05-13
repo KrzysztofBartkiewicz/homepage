@@ -19,7 +19,7 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 
-@media only screen and (min-device-width: 768px) {
+@media only screen and (min-width: 768px) {
   html {
     font-size: 80%;
   }
@@ -191,6 +191,17 @@ html {
   color: var(--color-primary);
 }
 
+@media only screen and (min-width: 1224px) {
+  .section-about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 5rem 3rem;
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
 .section-about__heading {
   font-size: 8rem;
   font-weight: 700;
@@ -198,11 +209,26 @@ html {
   border-bottom: 3px solid var(--color-primary);
 }
 
+@media only screen and (min-width: 1224px) {
+  .section-about__heading {
+    border-bottom: none;
+    border-right: 3px solid var(--color-primary);
+    padding-right: 2rem;
+  }
+}
+
 .personal-card {
   padding: 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .personal-card {
+    max-width: 70%;
+  }
 }
 
 .personal-card__avatar {

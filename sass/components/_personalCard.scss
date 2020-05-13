@@ -1,6 +1,16 @@
 .personal-card {
    padding: 1.5rem;
    display: flex;
+   margin: 0 auto;
+
+   @media only screen and (min-width : 768px) {
+      max-width: 70%;
+      
+   }
+
+   @media only screen  and (min-width : 1224px) {
+      
+   }
    
    &__avatar {
       width: 6rem;
