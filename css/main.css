@@ -200,11 +200,15 @@ html {
 
 .personal-card {
   padding: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .personal-card__avatar {
-  width: 100px;
-  height: 100px;
+  width: 6rem;
+  height: 6rem;
+  margin-right: 1rem;
 }
 
 .personal-card__name {
@@ -218,28 +222,34 @@ html {
 }
 
 .personal-card__description {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
 }
 
 .personal-card__socials {
+  margin-top: 2rem;
   font-size: 1.5rem;
   font-weight: 700;
-}
-
-.personal-card__social-icons {
-  display: inline-block;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.personal-card__social-text {
+  padding-top: .6rem;
+  margin-right: rem;
 }
 
 .personal-card__icon {
-  width: 30px;
-  height: 30px;
+  width: 3rem;
+  height: 3rem;
 }
 
 .main {
-  padding: 4rem;
+  padding: 1rem;
 }
 /*# sourceMappingURL=main.css.map */

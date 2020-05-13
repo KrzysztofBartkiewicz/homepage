@@ -1,9 +1,11 @@
 .personal-card {
    padding: 1.5rem;
-
+   display: flex;
+   
    &__avatar {
-      width: 100px;
-      height: 100px;
+      width: 6rem;
+      height: 6rem;
+      margin-right: 1rem;
    }
 
    &__name {
@@ -17,22 +19,26 @@
    }
 
    &__description {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       margin-bottom: 1rem;
    }
 
    &__socials {
+      margin-top: 2rem;
       font-size: 1.5rem;
       font-weight: 700;
+      display: flex;
+      justify-items: center;
+      justify-content: space-between;
    }
 
-   &__social-icons {
-      display: inline-block;
-      display: flex;
+   &__social-text {
+      padding-top: .6rem;
+      margin-right: rem;
    }
 
    &__icon {
-      width: 30px;
-      height: 30px;
+      width: 3rem;
+      height: 3rem;
    }
 }
