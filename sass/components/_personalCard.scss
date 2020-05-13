@@ -1,0 +1,38 @@
+.personal-card {
+   padding: 1.5rem;
+
+   &__avatar {
+      width: 100px;
+      height: 100px;
+   }
+
+   &__name {
+      font-size: 2rem;
+   }
+
+   &__profession {
+      font-style: italic;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+   }
+
+   &__description {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+   }
+
+   &__socials {
+      font-size: 1.5rem;
+      font-weight: 700;
+   }
+
+   &__social-icons {
+      display: inline-block;
+      display: flex;
+   }
+
+   &__icon {
+      width: 30px;
+      height: 30px;
+   }
+}

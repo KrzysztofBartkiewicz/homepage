@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,400;1,700&display=swap");
 :root {
   --color-primary: #575757;
 }
@@ -184,5 +184,62 @@ html {
     color: var(--color-primary);
     display: none;
   }
+}
+
+.section-about {
+  width: 100%;
+  color: var(--color-primary);
+}
+
+.section-about__heading {
+  font-size: 8rem;
+  font-weight: 700;
+  text-align: center;
+  border-bottom: 3px solid var(--color-primary);
+}
+
+.personal-card {
+  padding: 1.5rem;
+}
+
+.personal-card__avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.personal-card__name {
+  font-size: 2rem;
+}
+
+.personal-card__profession {
+  font-style: italic;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.personal-card__description {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.personal-card__socials {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.personal-card__social-icons {
+  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.personal-card__icon {
+  width: 30px;
+  height: 30px;
+}
+
+.main {
+  padding: 4rem;
 }
 /*# sourceMappingURL=main.css.map */

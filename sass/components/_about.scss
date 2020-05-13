@@ -1,0 +1,11 @@
+.section-about {
+   width: 100%;
+   color: var(--color-primary);
+
+   &__heading {
+      font-size: 8rem;
+      font-weight: 700;
+      text-align: center;
+      border-bottom: 3px solid var(--color-primary);
+   }
+}
