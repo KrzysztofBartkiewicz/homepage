@@ -281,4 +281,12 @@ html {
 .main {
   padding: 1rem;
 }
+
+.section-notes__heading {
+  border-bottom: 3px solid var(--color-primary);
+}
+
+.section-notes__container {
+  padding: 1.5rem 0;
+}
 /*# sourceMappingURL=main.css.map */
