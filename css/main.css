@@ -289,4 +289,45 @@ html {
 .section-notes__container {
   padding: 1.5rem 0;
 }
+
+.card {
+  background-color: #d8d8d8ad;
+  margin: .5rem;
+}
+
+.card__heading {
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 2rem;
+  border-bottom: 1px solid var(--color-primary);
+}
+
+.card__list {
+  padding: 1rem 3rem;
+  list-style: none;
+}
+
+.card__item {
+  font-size: 1.2rem;
+  padding: .5rem 0;
+}
+
+.live {
+  font-weight: 700;
+  color: black;
+  background-color: white;
+  padding: .3rem .5rem;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.live::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: red;
+  display: inline-block;
+  margin-right: .3rem;
+}
 /*# sourceMappingURL=main.css.map */
