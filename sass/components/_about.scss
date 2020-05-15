@@ -1,6 +1,5 @@
 .section-about {
    width: 100%;
-   color: var(--color-primary);
 
    @media only screen  and (min-width : 1224px) {
       display: flex;
@@ -10,9 +9,6 @@
    }
 
    &__heading {
-      font-size: 8rem;
-      font-weight: 700;
-      text-align: center;
       border-bottom: 3px solid var(--color-primary);
 
       @media only screen  and (min-width : 1224px) {
