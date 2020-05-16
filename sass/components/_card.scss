@@ -2,6 +2,14 @@
    background-color: #d8d8d8ad;
    margin: .5rem;
 
+   @media only screen and (min-width : 768px) {
+      width: calc(50% - 2 * .5rem);
+   }
+
+   @media only screen and (min-width : 1224px) {
+      width: calc(33.333333% - 3 * .5rem);
+   }
+
    &__heading {
       padding: 1rem 0;
       text-align: center;
@@ -10,7 +18,7 @@
    }
 
    &__list {
-      padding: 1rem 3rem;
+      padding: 1rem 5rem;
       list-style: none;
    }
 
